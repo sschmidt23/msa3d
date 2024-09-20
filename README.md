@@ -21,7 +21,7 @@ To install MSA3D, clone the git repository:
 
     git clone https://github.com/barisiciv/msa3d.git
 
-Which will pull the files into a directory called 'msa3d'
+Which pulls the files into a directory called 'msa3d'
 
 In order to execute MSA3D code, create a new conda environment using the specifications in the ``environment.yml`` file.
 This software uses 1.14.0 version of the ``jwst`` package (other dependencies specified in the ``environment.yml`` file).
@@ -30,11 +30,13 @@ This software uses 1.14.0 version of the ``jwst`` package (other dependencies sp
 Disk space
 ------------
 
-Total disk space required for full reduction (excluding STScI/Spec1Pipeline) is cca 80GB, of which approximately:
+Total disk space required for full reduction (excluding STScI/Spec1Pipeline) is ~80GB, of which approximately:
 
-11GB : 	are *rate.fits files (available on MAST)
-50GB :  are products of custom JWST/STScI Spec2Pipeline + Spec3Pipeline reduction (2D spectra)
-12GB :	are cubes and related data products
+    - 11GB : 	are *rate.fits files (available on MAST)
+
+    - 50GB :  are products of custom JWST/STScI Spec2Pipeline + Spec3Pipeline reduction (2D spectra)
+
+    - 12GB :	are cubes and related data products
 
 
 Data access
