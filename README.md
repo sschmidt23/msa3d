@@ -32,11 +32,11 @@ Disk space
 
 Total disk space required for full reduction (excluding STScI/Spec1Pipeline) is ~80GB, of which approximately:
 
-    - 11GB : 	are *rate.fits files (available on MAST)
+    - 11GB : *rate.fits files (available on MAST)
 
-    - 50GB :  are products of custom JWST/STScI Spec2Pipeline + Spec3Pipeline reduction (2D spectra)
+    - 50GB : products of custom JWST/STScI Spec2Pipeline + Spec3Pipeline reduction (2D spectra)
 
-    - 12GB :	are cubes and related data products
+    - 12GB : cubes and related data products
 
 
 Data access
