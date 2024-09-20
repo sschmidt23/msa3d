@@ -6,9 +6,9 @@ About
 ------------
 
 This software was developed for data reduction and cube design for the JWST slit-stepping survey GO-2136.
-It is designed to be applicable for any future JWST slit-stepping surveys employing a similar observing pattern.
+It is designed to be applicable for any future JWST slit-stepping surveys employing a similar observing strategy.
 
-See  `Barisic et al. 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv240808350B/abstract>`__. for technical details and a case study analysis of an example target.
+See  `Barisic et al. 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv240808350B/abstract>`_ . for technical details and a case study analysis of an example target.
 
 
 Installation
