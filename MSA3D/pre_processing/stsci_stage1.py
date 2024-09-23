@@ -43,8 +43,8 @@ import os
 os.environ["CRDS_SERVER_URL"] = "https://jwst-crds.stsci.edu"
 
 from jwst.pipeline import Detector1Pipeline
-from .clean_bkg import *
-
+#from .clean_bkg import *
+from . import clean_bkg
 
 
 class PreProcess:
@@ -67,7 +67,7 @@ class PreProcess:
             self.make_dir(output_path)
             print(path_to_clean, output_path)
             
-            clean(path_to_clean, output_path)
+            clean_bkg.clean(path_to_clean, output_path)
                 
         
         elif self.do_nsclean and not self.do_stage1:
@@ -76,7 +76,7 @@ class PreProcess:
             print(path_to_clean, output_path)
             self.make_dir(output_path)
             
-            clean(path_to_clean, output_path)
+            clean_bkg.clean(path_to_clean, output_path)
             
             
     def run_stage1(self, filename):
