@@ -37,7 +37,7 @@ Disk space
 
 Total disk space required for full reduction (excluding STScI/Spec1Pipeline) is ~80GB, of which approximately:
 
-    - 11GB : *rate.fits files (available for download on MAST)
+    - 11GB : \*rate.fits files (available for download on MAST)
 
     - 50GB : products of custom JWST/STScI Spec2Pipeline + Spec3Pipeline reduction (2D spectra)
 
@@ -52,7 +52,8 @@ The ``msa3d`` data reduction starts with slope images, which can be found on
 GO-2136 program is publicly available. Search for the data set on the portal
 using the Proposal ID: 2136 and download all the *_rate.fits files.
 
-After downloading the *_rate.fits files, make sure all *_rate.fits files are in the **same folder**.
+After downloading the \*_rate.fits files, make sure all \*_rate.fits files are
+in the **same folder**.
 
 
 Running the software
