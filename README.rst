@@ -50,7 +50,7 @@ Data access
 The ``msa3d`` data reduction starts with slope images, which can be found on
 `MAST Portal <https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html>`__.
 GO-2136 program is publicly available. Search for the data set on the portal
-using the Proposal ID: 2136 and download all the *_rate.fits files.
+using the Proposal ID: 2136 and download all the \*_rate.fits files.
 
 After downloading the \*_rate.fits files, make sure all \*_rate.fits files are
 in the **same folder**.
