@@ -59,5 +59,5 @@ in the **same folder**.
 Running the software
 ---------------------
 
-Temporary : **see notebook example **
+Temporary : **see notebook example**
 
