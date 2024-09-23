@@ -25,11 +25,12 @@ To install MSA3D, clone the git repository:
 
     git clone https://github.com/barisiciv/msa3d.git
 
-Which pulls the files into a directory called 'msa3d'
+which pulls the files into a directory called 'msa3d'.  To install, first create
+a fresh python environment using conda or venv, then run:
 
-In order to execute MSA3D code, create a new conda environment using the specifications in the ``environment.yml`` file.
-This software uses 1.14.0 version of the ``jwst`` package (other dependencies specified in the ``environment.yml`` file).
+.. code-block:: console
 
+    pip install -e .
 
 Disk space
 ----------
@@ -46,7 +47,10 @@ Total disk space required for full reduction (excluding STScI/Spec1Pipeline) is 
 Data access
 -----------
 
-The ``msa3d`` data reduction starts with slope images, which can be found on `MAST Portal <https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html>`__. GO-2136 program is publicly available. Search for the data set on the portal using the Proposal ID: 2136 and download all the *_rate.fits files.
+The ``msa3d`` data reduction starts with slope images, which can be found on
+`MAST Portal <https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html>`__.
+GO-2136 program is publicly available. Search for the data set on the portal
+using the Proposal ID: 2136 and download all the *_rate.fits files.
 
 After downloading the *_rate.fits files, make sure all *_rate.fits files are in the **same folder**.
 
