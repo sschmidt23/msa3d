@@ -131,12 +131,6 @@ def run(data_path, msa_path, run_process=False, run_postprocess=True, run_cubebu
     
         
         
-        
-data_entries = np.sort(glob.glob('/Users/ibarisic/Downloads/GO_2136_ALL_DATA/JWST/jw*rate.fits')) 
-msa_path = '/Users/ibarisic/Downloads/GO_2136_ALL_DATA/JWST/jw02136001001_01_msa.fits'
-
-#trans_msa.transform(msa_path, True, msa_path)
-#print('transformed MSA file')
 
 '''
 if __name__ == '__main__':
@@ -175,7 +169,7 @@ if __name__ == '__main__':
     #    print("Verbose mode enabled")
     
     #run(str(args.data_path), str(args.msa_path), run_process = args.stage2, run_postprocess = args.postprocess, run_cubebuild = args.cube_build)
-'''    
+'''
     
 
         
