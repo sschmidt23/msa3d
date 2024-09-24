@@ -43,8 +43,10 @@ def get_pathloss_removal(path, gal_id, sci_wave, n_of_slits = 3):
     from jwst import pathloss
     from jwst.datamodels.pathloss import PathlossModel
 
-    ref_model = PathlossModel('/Users/ibarisic/Downloads/GO_2136_ALL_DATA/test_stage1/reduced/pathloss/jwst_nirspec_pathloss_0002.fits')
-    pathloss_ref =  fits.open('/Users/ibarisic/Downloads/GO_2136_ALL_DATA/test_stage1/reduced/pathloss/jwst_nirspec_pathloss_0002.fits')
+    #ref_model = PathlossModel('/Users/ibarisic/Downloads/GO_2136_ALL_DATA/test_stage1/reduced/pathloss/jwst_nirspec_pathloss_0002.fits')
+    #pathloss_ref =  fits.open('/Users/ibarisic/Downloads/GO_2136_ALL_DATA/test_stage1/reduced/pathloss/jwst_nirspec_pathloss_0002.fits')
+    ref_model = PathlossModel('./processing/jwst_nirspec_pathloss_0002.fits')
+    pathloss_ref =  fits.open('./processing/jwst_nirspec_pathloss_0002.fits')
 
     # for software versions below 1.12 and cycle 1 data, instead of 'OPEN' argument, n_of_slits was used
     # assuming class definition / argument use was altered in the later pipeline versions
