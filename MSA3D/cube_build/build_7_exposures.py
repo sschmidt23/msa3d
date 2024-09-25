@@ -125,7 +125,7 @@ class Build7exp:
         gal_id = all_paths[0].split('/')[-1].split('_')[1]
         spec_grid, dx_pix, nx_interp = self.pixel_scaling(all_paths[0])
                 
-        fig, axes = plt.subplots(2, 1, figsize = (10,10))
+        #fig, axes = plt.subplots(2, 1, figsize = (10,10))
         for i in range(self.NSPEC):
             print(all_paths[i])
             self.project_common(all_paths[i], i, spec_grid, dx_pix, nx_interp)
