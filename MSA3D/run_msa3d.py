@@ -7,18 +7,19 @@ Created on Thu Sep 19 14:02:50 2024
 """
 
 import os
-import numpy as np
+import argparse
 import glob
 import shutil
-from pre_processing import stsci_stage1, clean_bkg
-from processing import post_processing as pp
-import cube_build.combine_crossdisp as cc
-from cube_build.build_7_exposures import *
-from processing import stsci_stage2 as st2
 from multiprocessing import Pool
-from processing import transform_msa_sourceids as trans_msa
-#from processing.nsclean import *
-import argparse
+
+import numpy as np
+
+from MSA3D.pre_processing import stsci_stage1, clean_bkg
+from MSA3D.processing import post_processing as pp
+import MSA3D.cube_build.combine_crossdisp as cc
+#from MSA3D.cube_build.build_7_exposures import *
+from MSA3D.processing import stsci_stage2 as st2
+from MSA3D.processing import transform_msa_sourceids as trans_msa
 
 
 
