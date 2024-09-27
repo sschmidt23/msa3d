@@ -8,29 +8,41 @@ About
 This software was developed for data reduction and cube design for the JWST slit-stepping survey GO-2136.
 It is designed to be applicable for any future JWST slit-stepping surveys employing a similar observing strategy.
 
-The software is uses version 1.14.0 ``jwst`` STScI pipeline to process the data
-via a modified set of arguments and keywords and original software dedicated to
-cube design for a slit-stepping strategy with NIRSpec MSA --- an unsupported
-processing mode in the standard STScI pipeline.  See  `Barisic et al. 2024
-<https://ui.adsabs.harvard.edu/abs/2024arXiv240808350B/abstract>`__ . for
+The software consists of two components:
+a) the version 1.14.0 ``jwst`` STScI pipeline to process the data via a modified set of arguments and keywords, and 
+b) the original software developed for cube design in a slit-stepping strategy with NIRSpec MSA 
+--- the latter being an unsupported data processing mode in the standard STScI pipeline.  
+
+See  `Barisic et al. 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv240808350B/abstract>`__ . for
 technical details and a case study analysis of an example target.
 
 
 Installation
 ------------
 
-To install MSA3D, clone the git repository:
+Start by creating a new python environment using conda or venv, example:
+
+.. code-block:: console
+
+    conda create -n ENVNAME python=3.11
+    conda activate ENVNAME
+
+
+To install MSA3D, clone the git repository into a new folder:
 
 .. code-block:: console
 
     git clone https://github.com/barisiciv/msa3d.git
 
-which pulls the files into a directory called 'msa3d'.  To install, first create
-a fresh python environment using conda or venv, then run:
+
+This pulls the files into a directory called 'msa3d'.  To install the package, run:
 
 .. code-block:: console
 
+    cd msa3d
     pip install -e .
+
+
 
 Disk space
 ----------
