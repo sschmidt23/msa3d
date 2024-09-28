@@ -8,6 +8,8 @@ doc/_build/*
 doc/build_/*
 bin/bin/*
 
+*.*~
+
 # Compiled source #
 ###################
 # *.c
