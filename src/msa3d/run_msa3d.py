@@ -14,12 +14,12 @@ from multiprocessing import Pool
 
 import numpy as np
 
-from MSA3D.pre_processing import stsci_stage1, clean_bkg
-from MSA3D.processing import post_processing as pp
-import MSA3D.cube_build.combine_crossdisp as cc
-#from MSA3D.cube_build.build_7_exposures import *
-from MSA3D.processing import stsci_stage2 as st2
-from MSA3D.processing import transform_msa_sourceids as trans_msa
+from msa3d.pre_processing import stsci_stage1, clean_bkg
+from msa3d.processing import post_processing as pp
+import msa3d.cube_build.combine_crossdisp as cc
+#from msa3d.cube_build.build_7_exposures import *
+from msa3d.processing import stsci_stage2 as st2
+from msa3d.processing import transform_msa_sourceids as trans_msa
 
 
 

@@ -15,7 +15,7 @@ stack = []
 # Import the NIRSpec Clean package
 #import nsclean as nc
 #from .nsclean import *
-from MSA3D.nsclean import NSClean1
+from msa3d.nsclean import NSClean1
 
 opmode = 'MOS' # Set this to 'MOS' or 'IFU'
 detector = 'NRS1'
